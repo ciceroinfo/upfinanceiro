@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.upfinanceiro.com/</title>
+  <link>https://www.upfinanceiro.com/</link>
+
+<item>
+     <link>https://www.upfinanceiro.com/</link>
+     <title>UP Financeiro</title>
+     <description>Aprenda como gerenciar suas finanças de uma forma simples e eficiente seja você uma  pessoa ou empresa e comece a investir desde já o dinheiro que vai sobrar.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.upfinanceiro.com/#contato</link>
+     <title>UP Financeiro - Contato</title>
+     <description>Aprenda como gerenciar suas finanças de uma forma simples e eficiente seja você uma  pessoa ou empresa e comece a investir desde já o dinheiro que vai sobrar.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.upfinanceiro.com/#sobre</link>
+     <title>UP Financeiro - Sobre Nós</title>
+     <description>Aprenda como gerenciar suas finanças de uma forma simples e eficiente seja você uma  pessoa ou empresa e comece a investir desde já o dinheiro que vai sobrar.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://upfinanceiro.com/#profissionais</link>
+     <title>UP Financeiro - Técnicas</title>
+     <description>Aprenda como gerenciar suas finanças de uma forma simples e eficiente seja você uma  pessoa ou empresa e comece a investir desde já o dinheiro que vai sobrar.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.upfinanceiro.com/#projetos</link>
+     <title>UP Financeiro - Profissional</title>
+     <description>Aprenda como gerenciar suas finanças de uma forma simples e eficiente seja você uma  pessoa ou empresa e comece a investir desde já o dinheiro que vai sobrar.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
