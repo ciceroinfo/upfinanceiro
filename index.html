@@ -186,9 +186,9 @@
     <p>Vamos entrar em contato e falar sobre o seu e nosso próximo projeto.</p>
     <p style="margin:0"><font size="2" color="gray">Podemos conversar por E-mail, Celular, Instagram, Facebook ou Whatsapp</font></p>
     <!--a href="mailto:Financeiro.UP@yahoo.com.br" class="w3-button w3-black w3-section">Financeiro.UP@yahoo.com.br</a-->
-    <a href="tel:04198553373" class="w3-button w3-black w3-section">LIGAR (41) 9855-3373</a>
+    <a href="tel:041998855937" class="w3-button w3-black w3-section">LIGAR (41) 99885-5937</a>
     <!--a href="https://fb.me/psicologowilliansantos/" target="_blank"><img src="./images/facebook48.png" width="38" height="38" alt="Facebook"></a-->
-	  <a href="https://wa.me/554198553373" target="_blank"><img src="./images/whatsapp48.png" width="38" height="38" alt="Whatsapp"></a>
+	  <a href="https://wa.me/5541998855937" target="_blank"><img src="./images/whatsapp48.png" width="38" height="38" alt="Whatsapp"></a>
 	  <a href="https://m.me/psicologowilliansantos/" target="_blank"><img src="./images/messenger48.png" width="38" height="38" alt="Facebook Messenger"></a>
     <p style="margin:0">
       <a href="https://goo.gl/maps/3UGQQFSwdbHic1J57" target="_blank"><font size="2" color="gray">R. Abóbora, 91 - Uberaba</font></a> ou 
@@ -197,24 +197,6 @@
 	  <p style="margin:0"><font size="2" color="gray"><a href="mailto:Financeiro.UP@yahoo.com.br">Financeiro.UP@yahoo.com.br</a></font></p>
   </div>
   
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat"
-    attribution=setup_tool
-    page_id="943837565785924"
-    theme_color="#0084ff"
-    logged_in_greeting="Olá, em que posso ajudar?"
-    logged_out_greeting="Olá, em que posso ajudar?">
-  </div>
 <!-- End page content -->
 </div>
 
@@ -253,5 +235,26 @@ function myMap()
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe61BU5H9ApDFQqjhALFpj1Mur7AZPC8Y&callback=myMap"></script>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "943837565785924", // Facebook page ID
+            whatsapp: "+5541998855937", // WhatsApp number
+            call: "041998855937", // Call phone number
+            call_to_action: "Olá, em que posso ajudar?", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp,call", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+
 </body>
 </html>
